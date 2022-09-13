@@ -1,0 +1,50 @@
+body {
+    background:linear-gradient(black
+    whitrans brown)
+}
+html {
+    color: rgb(100, 88, 83);
+    font-size: larger;
+    font-weight: normal;
+    font-family: "Helvetica Neue";
+    font-style: oblique;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+img {
+    border: 3px solid;
+    image-rendering: crisp-edges;
+}
+ul{
+    text-align: left;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+figcaption {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+div style {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 177.7778%;
+    padding-bottom: 48px; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    margin-top: 1.6em; 
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;
+}
