@@ -48,3 +48,6 @@ div style {
     border-radius: 8px; 
     will-change: transform;
 }
+.image-responsive {
+    image-size: 500;
+}
