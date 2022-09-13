@@ -12,18 +12,19 @@ html {
 }
 h2 {
     text-align: center;
-    font-size: small;
+    /* font-size: ; */
     font-family: 'Courier New', Courier, monospace;
 }
-p {
+p,a {
     text-align: center;
-    font-size: small;
+    font-size: large;
     font-family: 'Courier New', Courier, monospace;
 
 }
 img {
     border: 3px solid;
     image-rendering: crisp-edges;
+    background-origin: padding-box;
 }
 ul{
     text-align: left;
@@ -48,6 +49,8 @@ div style {
     border-radius: 8px; 
     will-change: transform;
 }
-.image-responsive {
-    image-size: 500;
+.img-responsive {
+    image-rendering: right;
+    border-radius: 500px;
+
 }
