@@ -8,6 +8,10 @@ div {
     grid-template-rows: 50px 200px 50px 200px 200px 50px;
     background-color:rgb(212, 206, 206);
     margin: 0 auto;
+    background-image: url("./img/aesthetic.png");
+    background-size: cover;
+    background-position: center;
+
 }
 img { 
     max-width: 100%;
@@ -15,6 +19,7 @@ img {
     background-color: white;
 }
 .pic3 {
+    margin-top: 50px;
     grid-column: 2 / 3 ;
     grid-row: 2 / 3 ;
 }
@@ -26,4 +31,10 @@ img {
     grid-column: 4 / 5 ;
     grid-row: 2 / 4 ;
     margin-top: 75px;
+}
+h1 {
+    grid-column: 2 / 5;
+    font-family: 'Alex Brush', cursive;
+    font-size: 3rem;
+    text-align: center;
 }
