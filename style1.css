@@ -1,14 +1,13 @@
 body {
     display:flex;
     justify-content: center;
+    background-image: url("./img/aesthetic.png");
 }
 div {
     display:grid;
     grid-template-columns: 50px 200px 200px 200px 50px;
     grid-template-rows: 50px 200px 50px 200px 200px 50px;
-    background-color:rgb(212, 206, 206);
     margin: 0 auto;
-    background-image: url("./img/aesthetic.png");
     background-size: cover;
     background-position: center;
 }
